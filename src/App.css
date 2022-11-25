@@ -1,38 +1,105 @@
 .App {
   text-align: center;
+  background-color:rgb(247,247,247);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  width: 300px;
+  height: 200px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:rgb(247,247,247);
+  min-height: 30vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(50px + 2vmin);
+  color: black;
+  font-family: Georgia;
 }
 
-.App-link {
-  color: #61dafb;
+.header-div{
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-grid{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-right:35px;
+  align-items:start;
+}
+
+.side-bar{
+  display:flex;
+  flex-direction:column;
+  margin:15px 35px 0 50px;
+  padding: 25px 20px 0;
+  border: 2px solid black;
+  padding:2em;
+  border-radius: 25px;
+  font-family: Lato;
+}
+
+.item-grid{
+  display:grid;
+  margin: 15px;
+  grid-gap:30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.Control-root{
+  border:0;
+  margin:0;
+  padding:10px;
+  flex-direction: column;
+  vertical-align:top;
+}
+
+.Form-goup{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+}
+
+.label-flex{
+  display:flex;
+  justify-content: row;
+}
+.cart-div{
+  padding-bottom: 20px;
+}
+
+.per-item{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  background-color: rgb(250, 184, 98);
+  border-radius: 25px;
+  padding:10px;
+}
+
+.color{
+  font-family: Lato;
+}
+
+.button {
+	border: none;
+	font-family: 'Lato';
+	font-size: inherit;
+	color: inherit;
+	background:rgb(243, 163, 163);
+	cursor: pointer;
+	display: inline-block;
+  border-radius:25px;
+	margin: 15px 30px;
+  padding: 10px 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
 }
