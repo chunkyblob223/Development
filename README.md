@@ -1,7 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-IF you used the stencil code, this is https://https://chunkyblob223.github.io/Development/
+IF you used the stencil code, this is https://chunkyblob223.github.io/Development/
 
 ### Goal and Value of the Application
 The goal of this application is to create a webpage that represents a simple hat shop. It is interactive in the filters and sorting aspect that I have implemented, serving as a basic online shop that can be interacted with by any user.
