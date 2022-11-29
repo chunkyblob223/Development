@@ -5,7 +5,7 @@ export const hatData = [
         "style": "Baseball",
         "material": "Cloth",
         "image": require("./images/baseball_cloth2.png"),
-        "button_id": "first_id"
+        "button_id": 0
     },
     {
         "name": "Radically Simple Cowboy",
@@ -13,7 +13,7 @@ export const hatData = [
         "style": "Cowboy",
         "material": "Cloth",
         "image": require("./images/cloth_cowboy.png"),
-        "button_id": "second_id"
+        "button_id": 1
     },
     {
         "name": "Cool Dudes Rule Cap",
@@ -21,7 +21,7 @@ export const hatData = [
         "style": "Baseball",
         "material": "Cloth",
         "image": require("./images/cloth_baseball.png"),
-        "button_id": "third_id"
+        "button_id": 2
     },
     {
         "name": "Mountainous Cap",
@@ -29,7 +29,7 @@ export const hatData = [
         "style": "Baseball",
         "material": "Cloth",
         "image": require("./images/cloth_baseball2.png"),
-        "button_id": "fourth_id"
+        "button_id": 3
     },
     {
         "name": "Soft Pink Fedora",
@@ -37,7 +37,7 @@ export const hatData = [
         "style": "Fedora",
         "material": "Cloth",
         "image": require("./images/cloth_fedora2.png"),
-        "button_id": "fifth_id"
+        "button_id": 4
     },
     {
         "name": "Leather Baseball Cap",
@@ -45,7 +45,7 @@ export const hatData = [
         "style": "Baseball",
         "material": "Leather",
         "image": require("./images/leather_bs.png"),
-        "button_id": "sixth_id"
+        "button_id": 5
     },
     {
         "name": "Slim Fedora",
@@ -53,7 +53,7 @@ export const hatData = [
         "style": "Fedora",
         "material": "Cloth",
         "image": require("./images/cloth_fedora.png"),
-        "button_id": "seventh_id"
+        "button_id": 6
     },
     {
         "name": "Leather Cowboy",
@@ -61,7 +61,7 @@ export const hatData = [
         "style": "Cowboy",
         "material": "Leather",
         "image": require("./images/leather_cowbody.png"),
-        "button_id": "eight_id"
+        "button_id": 7
     },
     {
         "name": "Basic Straw Baseball Cap",
@@ -69,7 +69,7 @@ export const hatData = [
         "style": "Baseball",
         "material": "Straw",
         "image": require("./images/straw_baseball.png"),
-        "button_id": "ninth_id"
+        "button_id": 8
     },
     {
         "name": "Straw Cowboy Hat",
@@ -77,7 +77,7 @@ export const hatData = [
         "style": "Cowboy",
         "material": "Straw",
         "image": require("./images/straw_cowboy.png"),
-        "button_id": "tenth_id"
+        "button_id": 9
     },
     {
         "name": "Classic Fedora",
@@ -85,7 +85,7 @@ export const hatData = [
         "style": "Fedora",
         "material": "Straw",
         "image": require("./images/straw_fedora.png"),
-        "button_id": "eleventh_id"
+        "button_id": 10
     },
     {
         "name": "Silly Crazy Pink Cowboy Hat",
@@ -93,6 +93,6 @@ export const hatData = [
         "style": "Cowboy",
         "material": "Straw",
         "image": require("./images/straw2_cowboy.png"),
-        "button_id": "twelve_id"
+        "button_id": 11
     }
 ]
